@@ -25,3 +25,9 @@
 5. You may need to wait a moment before "JavaScript (Node.js)" appears as an option beside "Python 3 (ipykernel)" under the main "Notebook" section of this screen.
 
 6. Once you see the "JavaScript" icon in the launcher tab, you can click it to replace the launcher tab with a Notebook tab running the Node.js kernel.
+
+7. You can also use the Terminal window to download .ipynb files (and other resources) to your temporary jupyter environment by using the `wget` command, Eg:
+
+```
+    wget https://github.com/sandbender/teaching_with_jupyter/raw/main/Integer-Indexed%20Arrays.ipynb
+```
